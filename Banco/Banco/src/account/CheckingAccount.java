@@ -9,21 +9,20 @@ public class CheckingAccount {
 
     private Client holder;
 
-    public CheckingAccount(int accountNumber, double balance, double limit, Client holder) {
+    public CheckingAccount(int accountNumber, double limit, Client holder) {
         this.accountNumber = accountNumber;
-        this.balance = 0.0;
         this.limit = limit;
         this.holder = holder;
     }
 
-     public void deposit(double amount){
-        if(amount > 0){
+    public void deposit(double amount) {
+        if (amount > 0) {
             this.balance += amount;
         }
     }
 
-    public boolean withdraw(double amount){
-        if(amount > 0 && (this.balance + this.limit) >= amount){
+    public boolean withdraw(double amount) {
+        if (amount > 0 && (this.balance + this.limit) >= amount) {
             this.balance -= amount;
             return true;
         }
@@ -57,5 +56,5 @@ public class CheckingAccount {
     public void setHolder(Client holder) {
         this.holder = holder;
     }
-    
+
 }

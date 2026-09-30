@@ -13,18 +13,18 @@ public class InvestmentAccount {
         this.holder = holder;
     }
 
-    public void applyYield(double rate){
+    public void applyYield(double rate) {
         balance += balance * rate;
     }
 
-     public void deposit(double amount){
-        if(amount > 0){
+    public void deposit(double amount) {
+        if (amount > 0) {
             this.balance += amount;
         }
     }
 
-    public boolean withdraw(double amount){
-        if(amount <= balance && amount > 0){
+    public boolean withdraw(double amount) {
+        if (amount <= balance && amount > 0) {
             this.balance -= amount;
             return true;
         }
