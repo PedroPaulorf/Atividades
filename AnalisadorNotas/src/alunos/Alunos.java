@@ -14,5 +14,5 @@ public class Alunos{
     public void setNota(double nota) {
         this.nota = nota;
     }
-    
+
 }

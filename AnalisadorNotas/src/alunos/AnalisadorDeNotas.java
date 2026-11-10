@@ -16,7 +16,7 @@ public class AnalisadorDeNotas {
             return 0.0; // se tiver vazio n retorna
         }
         // inicia com a nota do aluno, ja que pra cada index tem uma nota
-        double maior = listaAlunos.get(0).getNota();    
+        double maior = listaAlunos.get(0).getNota();
         // percorre o restante dos alunos
         for (Alunos aluno : listaAlunos) {
             if (aluno.getNota() > maior) {

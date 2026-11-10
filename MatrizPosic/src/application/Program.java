@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class Program {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		//recebe tam da metriz
 		int m = sc.nextInt(); // num linhas
 		int n = sc.nextInt(); // num colunas
 		int[][] mat = new int[m][n]; // montagem da matriz
-		
+
 		for (int i=0; i<mat.length; i++) { //preenche a matriz
 			for (int j=0; j<mat[i].length; j++) {
 				mat[i][j] = sc.nextInt();
 			}
 		}
-		
+
 		int x = sc.nextInt(); //le o valor
-		
+
 		//e percorre ate achar [i][j] = x
 		for (int i=0; i<mat.length; i++) {
 			for (int j=0; j<mat[i].length; j++) {
@@ -38,7 +38,7 @@ public class Program {
 				}
 			}
 		}
-		
+
 		sc.close();
 	}
 }
