@@ -7,3 +7,4 @@ Coletânea de exercícios e projetos de estudo em Java. Cada atividade pode ser 
 - [MatrizPosic](MatrizPosic) — Busca um valor em uma matriz e mostra a posição de cada ocorrência e os vizinhos disponíveis. Pratica percorrer matrizes e lidar com as bordas.
 - [AppTarefa](appTarefas/AppTarefa) — Recebe uma tarefa, sua categoria e a data de vencimento. Usa a API de datas do Java para calcular quantos dias faltam para o prazo.
 - [LocadoraCar](LocadoraCar) — Cadastra clientes, carros e motos, calcula o valor da locação e registra a disponibilidade dos veículos. Salva os dados em arquivos locais para recuperá-los na próxima execução.
+- [BankException](bankexception) — Simula saques e usa uma exceção personalizada para tratar valores inválidos, saldo insuficiente e saques acima do limite.
