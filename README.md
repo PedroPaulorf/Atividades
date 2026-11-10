@@ -1,4 +1,4 @@
-# Atividades de Java
+# Atividades Simples em Java que me ajudaram a formar minha base em programação.
 
 Coletânea de exercícios e projetos de estudo em Java. Cada atividade pode ser executada separadamente pelo terminal.
 
