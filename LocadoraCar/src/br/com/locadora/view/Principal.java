@@ -5,18 +5,6 @@ import br.com.locadora.model.*;
 
 import java.util.List;
 import java.util.Scanner;
-/* cpf para testes: 
-    pp - 12345678123
-    al - 1234567899
-    robertyy - 12345678912
-
-    carros - 
-    gol - ABC1222
-    onix - ABC1234
-    porsche - ABC1233
-    africa twin - ABC1111
-*/
-
 
 public class Principal {
     public static void main(String[] args) {
